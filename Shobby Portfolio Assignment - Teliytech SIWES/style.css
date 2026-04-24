@@ -1,0 +1,107 @@
+nav{
+    background-color: lightgray;
+    height: 20px;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+nav ul li a{
+    color:black;
+    text-decoration: none;
+    font-size: 20px
+}
+
+nav ul li a:hover{
+    color:red;
+}
+
+button {
+    background-color: white;
+    color:red;
+    border-style: none;
+    padding:8x 15px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: red;
+    color: white;
+}
+
+
+
+/* first section */
+.first{
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:40px;
+    background-color: rgb(225, 241, 241);
+}
+
+.first img{
+    border-radius: 15px;
+    border: 3px solid red;
+
+}
+
+/* second section */
+.second{
+    padding: 20px 40px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.second-card{
+    display:flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.expert{
+    text-align: center
+}
+
+.each-second-card{
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 5px;
+    text-align: justify;
+    background: aliceblue;
+    width: 280px;
+   
+}
+
+
+.each-second-card:hover{
+    background-color:#cfd8e3;
+}
+
+
+/* Third Section */
+.hobby{
+    text-align: center;
+}
+
+.hobby-card{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
